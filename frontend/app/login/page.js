@@ -21,7 +21,7 @@ const Page = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        `http://localhost:5000/api/hr/login`,
+        `https://resme-backend-production.up.railway.app/api/hr/login`,
         formData,
         { headers: { "Content-Type": "application/json" } }
       );
