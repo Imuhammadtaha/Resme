@@ -35,7 +35,7 @@ const Page = () => {
     try {
       setLoading(true);
       const res = await axios.post(
-        `http://localhost:5000/api/hr/signup`,
+        `https://resme-backend-production.up.railway.app/api/hr/signup`,
         formData,
         {
           headers: {
