@@ -29,7 +29,7 @@ const Page = () => {
     try {
       setLoading(true);
       const response = await axios.post(
-        "http://localhost:5000/api/file/upload-resumes",
+        "https://resme-backend-production.up.railway.app/api/file/upload-resumes",
         formData,
         {
           headers: {
